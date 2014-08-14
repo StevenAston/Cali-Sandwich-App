@@ -1,7 +1,13 @@
-function validate() {
-	if (document.getElementById('t1').checked) {
-		alert("checked");
-	} else {
-		alert("You didn't check it! Let me check it for you.")
+//var t1 = document.getElementById("#t1");
+//console.log("Topping 1 Checked");
+var run = true;
+
+function calcute() 
+{	
+	while (run == true) {
+		console.log("Running");
+		setTimeout(1000);
 	}
 }
+
+window.onload = calcute();

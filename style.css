@@ -5,16 +5,17 @@ h1 {
 }
 
 p {
-	margin-left: 20px;
+	font-family: "Helvetica";
 }
 
 body {
-    background-color: 939597;
+    background-color: #f1f1f2;
+    margin-left: 45px;
 }
 
-.sandwiches {
+.listForm {
     font-family: Helvetica, sans-serif;
-    font-size:  14px;
+    font-size: 14px;
     color: #404041;
     line-height: 24px;
     width: 25%;

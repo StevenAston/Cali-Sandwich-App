@@ -42,8 +42,9 @@ form {
 
 .output {
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Helvetica", sans-serif;
+    color: #bc2045;
     background-color: rgba(0,0,0,0);
     width: 3em;
 }

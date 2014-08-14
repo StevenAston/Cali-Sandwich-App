@@ -17,6 +17,9 @@ p {
 body {
     background-color: #f1f1f2;
     margin-left: 40px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 12px;
+    color: #717272;
 }
 
 form {

@@ -26,7 +26,12 @@ form {
     line-height: 24px;
 }
 
-#top
+#top #sandwich {
+    float: left;
+    width: 200px;
+    height: 90px;
+    margin: 5px;
+}
 
 .topping {
     font-family: "Helvetica", sans-serif;

@@ -13,9 +13,9 @@
 					sum = sum + parseFloat(document.listForm.choice[i].value);
 				}
 			}
-			document.listForm.subtotal.value = Math.floor(sum * 100) / 100;
-			document.listForm.tax.value = Math.floor((sum*0.14) * 100) / 100;
-			document.listForm.total.value = Math.floor((sum*1.14) * 100) / 100;
+			document.listForm.subtotal.value = "$" + Math.floor(sum * 100) / 100;
+			document.listForm.tax.value = "$" + Math.floor((sum*0.14) * 100) / 100;
+			document.listForm.total.value = "$" + Math.floor((sum*1.14) * 100) / 100;
 		}
 	</script>
 </head>
@@ -38,9 +38,9 @@
 		<input type="checkbox" name="choice" value="0.88" onchange="checkTotal()">MUSHROOMS<br/>
 		<input type="checkbox" name="choice" value="1.35" onchange="checkTotal()">MIXED VEGGIES<br/>
 		<input type="checkbox" name="choice" value="0.88" onchange="checkTotal()">PROVOLONE CHEESE<br/>
-		Subtotal: <input type="text" size="4" name="subtotal" value="0.00"/>
-		Tax: <input type="text" size="4" name="tax" value="0.00"/>
-		Total: <input type="text" size="4" name="total" value="0.00"/>
+		Subtotal: <input class="output" type="text" size="4" name="subtotal" value="0.00"/>
+		Tax: <input class="output" type="text" size="4" name="tax" value="0.00"/>
+		Total: <input class="output" type="text" size="4" name="total" value="0.00"/>
 	</form>
 </body>
 </html>

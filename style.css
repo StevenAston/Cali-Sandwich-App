@@ -54,3 +54,21 @@ input {
   font-size: 24px;
   color: #404041;
 }
+
+.left {
+    float: left;
+    width: 30%;
+    min-width: 200px;
+}
+
+.right {
+    float: left;
+     width: 30%;
+     min-width: 200px;
+}
+
+.total {
+    float: left;
+    width: 30%;
+    min-width: 200px;
+}

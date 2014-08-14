@@ -1,6 +1,6 @@
 h1 {
   font-family: "Helvetica", sans-serif;
-  font-size: "36px";
+  font-size: 36px;
   color: #404041;
 }
 
@@ -26,4 +26,15 @@ body {
     -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
     -moz-column-gap: 20px; /* Firefox */
     column-gap: 20px;
+}
+
+.output {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+input {
+  font-family: "Helvetica", sans-serif;
+  font-size: 24px;
+  color: #404041;
 }

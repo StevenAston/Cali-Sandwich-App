@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript">
 		console.log("Script running");
+
 		function checkTotal() {
 			document.listForm.total.value = '';
 			var sum = 0.0;
@@ -23,7 +24,7 @@
 	<h1>California Sandwich Menu Application</h1>
 
 	<form name="listForm">
-		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.74">Veal<br/>
+		<input type="radio" class="sandwich-type box" name="choice" checked="true" onchange="checkTotal()" value="7.74">Veal<br/>
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.74">Chicken<br/>
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.08">Eggplant<br/>
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.08">Meatball<br/>
@@ -41,9 +42,10 @@
 		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">MUSHROOMS<br/>
 		<input type="checkbox" class="topping box" name="choice" value="1.35" onchange="checkTotal()">MIXED VEGGIES<br/>
 		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">PROVOLONE CHEESE<br/>
-		Subtotal: <input class="output" type="text" size="4" name="subtotal" value="0.00"/>
-		Tax: <input class="output" type="text" size="4" name="tax" value="0.00"/>
-		Total: <input class="output" type="text" size="4" name="total" value="0.00"/>
+		<br>
+		Subtotal: <input class="output" type="text" size="4" name="subtotal" value="$7.74"/>
+		Tax: <input class="output" type="text" size="4" name="tax" value="$1.08"/>
+		Total: <input class="output" type="text" size="4" name="total" value="$8.82"/>
 	</form>
 </body>
 </html>

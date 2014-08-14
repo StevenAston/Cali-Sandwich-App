@@ -22,7 +22,9 @@
 </head>
 <body>
 	<h1>California Sandwich Menu Application</h1>
-
+	<div id="sandwich">
+	<h2>Sandwiches</h2>
+	<hr align="left" width="25%" >
 	<form name="listForm">
 		<input type="radio" class="sandwich-type box" name="choice" checked="true" onchange="checkTotal()" value="7.74">Veal<br/>
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.74">Chicken<br/>
@@ -32,17 +34,22 @@
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.74">Steak<br/>
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="7.08">Veggie<br/>
 		<input type="radio" class="sandwich-type box" name="choice" onchange="checkTotal()" value="4.42">Minis<br/>
-
-		<br/>
-
-		<input type="checkbox" class="topping box" name="choice" value="0.00" onchange="checkTotal()">JALAPEÑO PEPPERS<br/>
-		<input type="checkbox" class="topping box" name="choice" value="0.44" onchange="checkTotal()">SAUTÉED ONIONS<br/>
-		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">SWEET PEPPERS<br/>
-		<input type="checkbox" class="topping box" name="choice" value="1.77" onchange="checkTotal()">RAPINI<br/>
-		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">MUSHROOMS<br/>
-		<input type="checkbox" class="topping box" name="choice" value="1.35" onchange="checkTotal()">MIXED VEGGIES<br/>
-		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">PROVOLONE CHEESE<br/>
 		<br>
+	<div id="top">
+	<h2>Toppings</h2>
+	<hr align="left" width="25%" >
+		<input type="checkbox" class="topping box" name="choice" value="0.00" onchange="checkTotal()">Jalapeño Peppers<br/>
+		<input type="checkbox" class="topping box" name="choice" value="0.44" onchange="checkTotal()">Sautéed Onions<br/>
+		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">Sweet Peppers<br/>
+		<input type="checkbox" class="topping box" name="choice" value="1.77" onchange="checkTotal()">Rapini<br/>
+		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">Mushrooms<br/>
+		<input type="checkbox" class="topping box" name="choice" value="1.35" onchange="checkTotal()">Mixed Veggies<br/>
+		<input type="checkbox" class="topping box" name="choice" value="0.88" onchange="checkTotal()">Provolone Cheese<br/>
+		<br>
+	</div>
+	</div>
+	<h2>Total</h2>
+	<hr align="left" width="25%" >
 		Subtotal: <input class="output" type="text" size="4" name="subtotal" value="$7.74"/>
 		Tax: <input class="output" type="text" size="4" name="tax" value="$1.08"/>
 		Total: <input class="output" type="text" size="4" name="total" value="$8.82"/>

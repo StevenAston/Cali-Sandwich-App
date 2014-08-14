@@ -4,6 +4,12 @@ h1 {
   color: #404041;
 }
 
+h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  color: #404041;
+}
+
 p {
 	font-family: "Helvetica", sans-serif;
 }
@@ -20,12 +26,16 @@ form {
     line-height: 24px;
 }
 
+#top
+
 .topping {
     font-family: "Helvetica", sans-serif;
 }
 
 .output {
     border: none;
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
     background-color: rgba(0,0,0,0);
     width: 3em;
 }

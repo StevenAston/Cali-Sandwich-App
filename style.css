@@ -1,26 +1,25 @@
-<<<<<<< HEAD
-    h1 {
-      font-family: "Helvetica", sans-serif;
-      font-size: "36px";
-      color: #404041;
-    }
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: "36px";
+  color: #404041;
+}
 
-    p {
-    	margin-left: 20px;
-    }
+p {
+	margin-left: 20px;
+}
 
-    body {
+body {
     background-color: 939597;
-	}
+}
 
-	.sandwiches {
-	font-family: Helvetica, sans-serif;
-	font-size:  14px;
-	color: #404041;
-	line-height: 24px;
-	width: 25%;
+.sandwiches {
+    font-family: Helvetica, sans-serif;
+    font-size:  14px;
+    color: #404041;
+    line-height: 24px;
+    width: 25%;
 
-	/* CSS Columns */
+    /* CSS Columns */
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -28,12 +27,3 @@
     -moz-column-gap: 20px; /* Firefox */
     column-gap: 20px;
 }
-=======
-h1 {
-	font-family: "Verdana", sans-serif;
-	font-size: "40px";
-	color: #b404041;
-}
-
-p {margin-left: 20px;}
->>>>>>> FETCH_HEAD

@@ -13,7 +13,7 @@ body {
     margin-left: 40px;
 }
 
-.box {
+form {
     font-family: "Helvetica", sans-serif;
     font-size: 12px;
     color: #404041;
@@ -22,7 +22,6 @@ body {
 
 .topping {
     font-family: "Helvetica", sans-serif;
-    text-transform: "capitalize";
 }
 
 .output {
